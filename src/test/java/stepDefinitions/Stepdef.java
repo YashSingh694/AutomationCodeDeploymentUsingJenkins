@@ -27,7 +27,7 @@ public class Stepdef extends BaseClass
 	{
 		//Logging
 		logger=Logger.getLogger("nopCommerceSDET");
-		PropertyConfigurator.configure(System.getProperty("user.dir")+"/"+"/Log4j.properties");
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"/"+"Log4j.properties");
 		logger.setLevel(Level.DEBUG);
 		
 		//Load properties file
