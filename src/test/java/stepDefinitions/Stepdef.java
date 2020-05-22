@@ -27,8 +27,8 @@ public class Stepdef extends BaseClass
 	{
 		//Logging
 		logger=Logger.getLogger("nopCommerceSDET");
-		PropertyConfigurator.configure("./src/Log4j.properties");
-		logger.setLevel(Level.DEBUG);
+		//PropertyConfigurator.configure("./src/Log4j.properties");
+		//logger.setLevel(Level.DEBUG);
 		
 		//Load properties file
 		configProp= new Properties();
