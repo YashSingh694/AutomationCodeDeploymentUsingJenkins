@@ -27,12 +27,12 @@ public class Stepdef extends BaseClass
 	{
 		//Logging
 		logger=Logger.getLogger("nopCommerceSDET");
-		PropertyConfigurator.configure("./Log4j.properties");
+		PropertyConfigurator.configure("./src/Log4j.properties");
 		logger.setLevel(Level.DEBUG);
 		
 		//Load properties file
 		configProp= new Properties();
-		FileInputStream configPropfile = new FileInputStream("./config.properties");
+		FileInputStream configPropfile = new FileInputStream("config.properties");
 		configProp.load(configPropfile);
 		
 		String br=configProp.getProperty("browser"); //getting the browser name from config.properties file
